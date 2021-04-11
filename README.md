@@ -10,4 +10,13 @@ A timed quiz created about JavaScript.
 - Wrong answers will subtract time.
 
 
+![](/assets/screenshotquiz.PNG)
+
+
+
 https://amaresch52.github.io/Homework-3-Coding-Quiz/?
+
+
+## Authors
+
+- Adam Maresch amaresch52@github
