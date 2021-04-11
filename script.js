@@ -1,12 +1,13 @@
 var startButton = document.getElementById("startButton");
 var countdownTimer = document.getElementById("countdownTimer");
 //var container = document.getElementById('container')
-var timer;
+var timer = 0;
 //var timerCount;
-var score;
+var score = 0;
 var questionIndex = 0;
 var createUl = document.createElement("ul");
 var timerCount = 45;
+var createScore = document.getElementById("score");
 
 var questionPool = [{
     question: "ipsum",
@@ -94,7 +95,7 @@ function compare(event) {
         createDiv.setAttribute("id", "createDiv");
         
         if (element.textContent == questionPool[questionIndex].correctAnswer) {
-            score++;
+            score += 5;
             createDiv.textContent = "Correct!" ; 
            
         } else {
@@ -126,6 +127,12 @@ function gameOver() {
     } else {
         endGame.style.display = "none";
     }
+
+    if (timerCount >= 0) {
+        var timeRemaining = timerCount;
+        
+    createScore.innerHTML = "Final Score: "+ score + timeRemaining;
+}
 
 questionPage();
    

@@ -1,0 +1,68 @@
+#container {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    border: 5px solid black;
+    margin-left: 20%;
+
+}
+
+#quizQuestions{
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    border: 5px solid black;
+    margin-left: 20%;
+
+}
+
+#endGame{
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    border: 5px solid black;
+    margin-left: 20%;
+
+}
+
+#startButton {
+    border-radius: 1,4;
+    background-color: blue;
+    color: white; 
+    margin-left: 47%;
+
+}
+
+#score {
+    text-align: center;
+    margin-top: 10%;
+    font-size: x-large;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+ul {
+    text-align: center;
+    list-style: none;
+    padding: 20%;
+    
+}
+
+li {
+    background-color: blue;
+    color: white;
+    padding: 10px 10px;
+    font-size: x-large;
+    margin: 10px;
+}
+
+form {
+    text-align: center;
+    margin-top: 20%;
+}
