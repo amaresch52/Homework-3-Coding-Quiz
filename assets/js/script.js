@@ -1,8 +1,6 @@
 var startButton = document.getElementById("startButton");
 var countdownTimer = document.getElementById("countdownTimer");
-//var container = document.getElementById('container')
 var timer = 0;
-//var timerCount;
 var score = 0;
 var questionIndex = 0;
 var createUl = document.createElement("ul");
@@ -10,23 +8,37 @@ var timerCount = 45;
 var createScore = document.getElementById("score");
 
 var questionPool = [{
-    question: "ipsum",
-    choices: ["69","72","89","98"],
-    correctAnswer: "69",
+    question: "The condition in an if/else statement is enclosed within ____?",
+    choices: ["parentheses","curly brackets","square brackets","an envelope"],
+    correctAnswer: "parentheses",
     
 
 },
 {
-    question: "ire",
-    choices: ["69","72","89","98"],
-    correctAnswer: "89",
+    question: "Inside which HTML element do you link the JavaScript?",
+    choices: ["<p>","<JS>","<script>","<scripts>"],
+    correctAnswer: "<script>",
     
 
 },
 {
-    question: "ipole",
-    choices: ["69","72","89","98"],
-    correctAnswer: "98",
+    question: "Commonly used data types do not include?",
+    choices: ["strings","alerts","booleans","numbers"],
+    correctAnswer: "alerts",
+    
+
+},
+{
+    question: "The first index of an array is?",
+    choices: ["0","1","2","3"],
+    correctAnswer: "0",
+    
+
+},
+{
+    question: "When is localStorage data cleared?",
+    choices: ["No expiration time","Page reload","Browser close","First of the Month"],
+    correctAnswer: "No expiration time",
     
 
 }]
